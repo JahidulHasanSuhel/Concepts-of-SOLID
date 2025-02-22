@@ -122,5 +122,5 @@ public class Wolf implements WildAnimal {
 ```
 Now, both `Dog` and `Wolf` classes are implementing only the methods that they use, and we are following the Interface Segregation Principle correctly.
 
-## Goal:
+## **`Goal`**:
 This principle aims at splitting a set of actions into smaller sets so that a Class executes ONLY the set of actions it requires.
