@@ -1,6 +1,6 @@
 # **`Open-Closed Principle`**
 ## What is OCP?
-The Open-Closed Principle states that software entities should be OPEN for extension, but CLOSED for modification. This means that a component should be easily extendable without modifying the component itself. For example:
+The Open-Closed Principle states that software entities **should be OPEN for extension, but CLOSED for modification**. This means that a component **should be easily extendable without modifying the component itself**. For example:
 ```
 public class PaymentManager {
     public void pay(double amount) {
@@ -16,7 +16,7 @@ public class PaymentManager {
 ```
 Let's suppose that you wrote the `PaymentManager` class to manage Credit card payments, and it is working fine. But now, you need to add a new payment method, for example, Debit card. It's ok, because Credit cards and Debit cards are similar.
 
-But, what if you need to add a new payment method, for example, Bitcoin? You will need to modify the `PaymentManager` class, and this violates the OCP.
+But, what if you need to add a new payment method, for example, Bitcoin? You will need to **modify the `PaymentManager` class, and this violates the OCP**.
 ```
 public class PaymentManager {
     public void pay(double amount) {
@@ -40,7 +40,7 @@ public class PaymentManager {
     }
 }
 ```
-So, how to solve this problem? With the correct level of abstraction:
+So, how to solve this problem? **With the correct level of abstraction**:
 
 ## PaymentManager class:
 ```
