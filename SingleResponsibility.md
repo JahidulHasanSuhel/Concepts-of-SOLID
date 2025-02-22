@@ -1,7 +1,8 @@
-Single-Responsibility Principle
-What is SRP?
-This principle states that a class/method/interface should only have one responsibility. For example:
+# Single-Responsibility Principle
+## What is SRP?
 
+This principle states that a class/method/interface should only have one responsibility. For example:
+```
 public class Book {
     // Properties
     private String name;
@@ -35,8 +36,9 @@ public class Book {
 
     // Getters and setters
 }
-The Book class should only handle the book properties, but, it violates the SRP because it has two responsibilities: managing the book properties and printing the text to the console. The printTextToConsole method should be in a different class, for example, in a BookPrinter class:
-
+```
+The `Book` class should only handle the book properties, but, it violates the SRP because it has two responsibilities: managing the book properties and printing the text to the console. The `printTextToConsole` method should be in a different class, for example, in a `BookPrinter` class:
+```
 public class BookPrinter {
     /*
      * Method unrelated to the book, it is just output
@@ -47,3 +49,6 @@ public class BookPrinter {
         System.out.println(book.getText());
     }
 }
+```
+## Goal: 
+This principle aims to separate behaviours so that if bugs arise as a result of your change, it won’t affect other unrelated behaviours.
