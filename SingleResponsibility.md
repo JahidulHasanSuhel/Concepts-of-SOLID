@@ -50,5 +50,6 @@ public class BookPrinter {
     }
 }
 ```
+- [source code.](https://github.com/JahidulHasanSuhel/SOLID-Principles/tree/main/SingleResposibility)
 ## **`Goal`**: 
 This principle aims to separate behaviours so that if bugs arise as a result of your change, it won’t affect other unrelated behaviours.
