@@ -50,5 +50,5 @@ public class BookPrinter {
     }
 }
 ```
-## Goal: 
+## **`Goal`**: 
 This principle aims to separate behaviours so that if bugs arise as a result of your change, it won’t affect other unrelated behaviours.
