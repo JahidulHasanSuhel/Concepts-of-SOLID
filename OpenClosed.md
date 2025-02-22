@@ -64,5 +64,5 @@ public interface PaymentMethod {
 ```
 Now you can add any payment method without modifying the `PaymentManager` class, you just need to create a new class that implements the `PaymentMethod` interface.
 
-## Goal:
+## **`Goal`**:
 This principle aims to extend a Class’s behaviour without changing the existing behaviour of that Class. This is to avoid causing bugs wherever the Class is being used.
