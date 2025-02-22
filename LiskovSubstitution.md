@@ -76,6 +76,6 @@ public class Penguin implements Bird {
 }
 ```
 If you have many classes that don't implements correctly some methods of an interface, you are probably violating the Liskov Substitution Principle.
-
+- [source code.](https://github.com/JahidulHasanSuhel/SOLID-Principles/tree/main/LiskovSubstitution)
 ## **`Goal`**:
 This principle aims to enforce consistency so that the parent Class or its child Class can be used in the same way without any errors.
