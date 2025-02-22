@@ -44,5 +44,5 @@ public class ClassA {
 ```
 Now, `ClassA` is not directly dependent on `ClassB`, but rather on `InterfaceB`, the same goes for `ClassB`. This is the essence of DIP.
 
-## Goal:
+## **`Goal`**:
 This principle aims at reducing the dependency of a high-level Class on the low-level Class by introducing an interface.
